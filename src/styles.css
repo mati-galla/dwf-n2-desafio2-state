@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 0 30px;
+}
+
+.title-container {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.body-text-container {
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+.name-form {
+  margin-bottom: 115px;
+}
+
+.name-form__row {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.data-form {
+  margin-top: 40px;
+  margin-bottom: 135px;
+}
+
+.data-form__row {
+  margin-bottom: 40px;
+}
+
+.data-form__row:last-of-type {
+  margin-bottom: 55px;
+}
+
+.data-form__buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 55px;
+}
+
+.large-text-container {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.button-container {
+  margin-bottom: 312px;
+}
